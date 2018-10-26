@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="476.0" prefWidth="268.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="nio_p.TCPSingleClient">
+   <children>
+      <Button fx:id="send" layoutX="96.0" layoutY="147.0" mnemonicParsing="false" text="접속" />
+      <TextField fx:id="tf_ip" layoutX="96.0" layoutY="63.0" />
+      <Label layoutX="25.0" layoutY="67.0" text="접속 IP" />
+      <Label layoutX="25.0" layoutY="113.0" text="접속 PORT" />
+      <TextField fx:id="tf_port" layoutX="96.0" layoutY="109.0" />
+      <Label fx:id="lb_msg" layoutX="55.0" layoutY="429.0" prefHeight="23.0" prefWidth="200.0" textFill="RED" />
+      <Label layoutX="25.0" layoutY="433.0" text="상대?" />
+      <Label layoutX="26.0" layoutY="310.0" text="할 말" />
+      <TextField fx:id="tf_msg" layoutX="68.0" layoutY="306.0" prefHeight="23.0" prefWidth="178.0" />
+      <Button fx:id="bt_msg" layoutX="191.0" layoutY="346.0" mnemonicParsing="false" text="말 전송" />
+   </children>
+</AnchorPane>

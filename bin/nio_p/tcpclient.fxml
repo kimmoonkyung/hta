@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="nio_p.TCPsingleServer">
+   <children>
+      <Label fx:id="lb_msg" layoutX="55.0" layoutY="429.0" prefHeight="23.0" prefWidth="200.0" textFill="RED" />
+      <Label layoutX="25.0" layoutY="433.0" text="상대?" />
+      <Label layoutX="26.0" layoutY="310.0" text="할 말" />
+      <TextField fx:id="tf_msg" layoutX="68.0" layoutY="306.0" prefHeight="23.0" prefWidth="178.0" />
+      <Button fx:id="bt_msg" layoutX="127.0" layoutY="114.0" mnemonicParsing="false" text="말 전송" />
+      <TextField fx:id="tf_send" layoutX="49.0" layoutY="80.0" />
+      <TextField fx:id="tf_recive" layoutX="49.0" layoutY="200.0" />
+      <Label layoutX="49.0" layoutY="55.0" text="보내는이 " />
+      <Label layoutX="49.0" layoutY="175.0" text="받는 이" />
+   </children>
+</AnchorPane>

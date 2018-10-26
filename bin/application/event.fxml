@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane 
+xmlns="http://javafx.com/javafx/8" 
+xmlns:fx="http://javafx.com/fxml/1"
+fx:controller = "application.EventMain"
+>
+	<!-- <fx:script>
+		function btnClk(){
+			var str = tf1.getText();
+			label1.setText('입력 글자 : ' + str);
+			tf1.setText(''); 버튼 입력시 텍스트필드 초기화
+			tf1.requestFocus();
+		}
+	</fx:script> -->
+   <top>
+      <Label fx:id='label1' prefHeight="21.0" prefWidth="172.0" text="Label" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+   							<!-- onAction 엔터키-->
+      <TextField fx:id='tf1' BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+   			<!-- onAction 버튼클릭-->
+      <Button fx:id='btn' text="Button" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

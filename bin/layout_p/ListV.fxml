@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.collections.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.collections.FXCollections?>
+
+<BorderPane prefHeight="238.0" prefWidth="345.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layout_p.ListViewController">
+   <center>
+      <ListView fx:id="list" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      	<items>
+      		<FXCollections fx:factory="observableArrayList">
+      			<String fx:value="짜장" />
+      			<String fx:value="짬뽕" />
+      			<String fx:value="탕슉" />
+      			<String fx:value="볶음밥" />
+      			<String fx:value="깐풍기" />
+      		</FXCollections>
+      	</items>
+      </ListView>
+   </center>
+   <bottom>
+      <HBox>
+         <children>
+            <Button fx:id="btn" mnemonicParsing="false" text="삭제벑흔" BorderPane.alignment="CENTER">
+               <HBox.margin>
+                  <Insets right="152.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btn3" mnemonicParsing="false" text="왼쪽옮김" />
+            <Button fx:id="btn2" mnemonicParsing="false" text="오른옮김" />
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <Label fx:id="label" text="러벨" BorderPane.alignment="CENTER" />
+   </top>
+   <right>
+      <ListView fx:id="list2" prefHeight="200.0" prefWidth="179.0" BorderPane.alignment="CENTER">
+	      	<items>
+		      	<FXCollections fx:factory="observableArrayList">
+		      		<String fx:value="장짜" />
+		      		<String fx:value="뽕짬" />
+		      		<String fx:value="육수탕" />
+		      		<String fx:value="밥음볶" />
+		      		<String fx:value="기풍깐" />
+		      	</FXCollections>
+	      	</items>
+      </ListView>
+   </right>
+</BorderPane>

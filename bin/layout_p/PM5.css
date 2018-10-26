@@ -1,0 +1,35 @@
+#wrapper{
+	-fx-background-color: #ffff00;
+}
+
+#hbox1{
+	-fx-background-color: #00ff00; 
+	-fx-border-color: #0000ff; 
+	-fx-border-insets: 5; 
+	-fx-border-radius: 20;
+}
+
+#hbox2{
+	-fx-background-color: linear-gradient(to right, #000000, #ffaa77);
+}
+
+#hbox3{
+	-fx-background-image: url('file:ppp/roka.png');
+}
+
+#btn1{
+	-fx-border-insets: 50; 
+	-fx-border-width: 5;
+	-fx-background-color: black;
+	-fx-text-fill: yellow;
+}
+
+#btn2{
+	-fx-background-color: red; 
+	-fx-text-fill: #ffffff;
+}
+
+#btn3{
+	-fx-background-color: red; 
+	-fx-text-fill: white;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphic_p.GraphicFxmlMain">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle fx:id="rec" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="31.0" rotate="-45.0" stroke="RED" strokeType="INSIDE" strokeWidth="5.0" width="85.0" x="50.0" y="50.0" />
+            <Circle fx:id="cir" fill="#d4ffca" layoutX="143.0" layoutY="74.0" opacity="0.44" radius="50.0" stroke="#eb4040" strokeType="INSIDE" />
+            <Ellipse fill="#c5eb30" layoutX="115.0" layoutY="178.0" opacity="0.55" radiusX="100.0" radiusY="80.0" rotate="37.9" stroke="#ee0909" strokeType="INSIDE" strokeWidth="5.0" />
+            <Arc fx:id="arc" fill="#e1ff00" layoutX="321.0" layoutY="166.0" length="270.0" radiusX="100.0" radiusY="100.0" startAngle="45.0" stroke="#eeff00" strokeType="INSIDE" strokeWidth="5.0" type="ROUND" />
+            <CubicCurve controlX1="-90.0" controlX2="20.0" controlY1="-300.0" controlY2="500.0" endX="150.0" fill="DODGERBLUE" layoutX="192.0" layoutY="337.0" startX="-150.0" stroke="BLACK" />
+            <Line fx:id="line" endX="600.0" layoutY="350.0" rotate="45.0" startX="350.0" strokeDashOffset="60.0" strokeWidth="5.0" />
+            <Button fx:id="btnRec" layoutX="221.0" layoutY="18.0" mnemonicParsing="false" text="사각형 회전 벑흔" />
+            <Button fx:id="btnArc" layoutX="414.0" layoutY="18.0" mnemonicParsing="false" text="팩맨" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: #ffff00;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="page.MainController">
+   <children>
+      <Label fx:id="label" layoutX="50.0" layoutY="25.0" prefHeight="15.0" prefWidth="151.0" text="mainPage" />
+      <Button fx:id="mainBtn" layoutX="95.0" layoutY="191.0" mnemonicParsing="false" 
+      onAction="#subGo" text="subGo" />
+      <TextField fx:id="msg" layoutX="57.0" layoutY="114.0" />
+   </children>
+</AnchorPane>
