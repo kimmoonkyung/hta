@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="242.0" prefWidth="269.0" 
+xmlns="http://javafx.com/javafx/8" 
+xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="thread_p.TaskController">
+   <children>
+      <Button fx:id="resume" layoutX="33.0" layoutY="29.0" mnemonicParsing="false" text="시작" />
+      <Button fx:id="suspend" layoutX="172.0" layoutY="29.0" mnemonicParsing="false" text="일시정지" />
+      <Label fx:id="label" layoutX="21.0" layoutY="172.0" prefHeight="37.0" prefWidth="228.0" text="0" />
+   </children>
+</AnchorPane>
